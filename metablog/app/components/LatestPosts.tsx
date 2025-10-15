@@ -13,7 +13,7 @@ const mokPosts = [
 ];
 
 const PostCard = ({ post }) => (
-    <a href={`/post/${post.slug}`} className="group block h-full" aria-label={`Read ${post.title}`}>
+    <div className="block h-full">
         <article
             className="bg-white border border-gray-100 rounded-xl overflow-hidden shadow-lg 
                  flex flex-col h-full transition-shadow duration-300 hover:shadow-xl"
@@ -58,16 +58,16 @@ const PostCard = ({ post }) => (
                 </div>
             </div>
         </article>
-    </a>
+    </div>
 );
 
 export default function LatestPosts() {
     return (
-        <section className="mt-8 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-            {/*Titre de la section */}
+        <section className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+            {/* Titre de la section
             <h3 className="text-3xl font-extrabold text-gray-900 mb-6 sm:mb-8">
                 Latest Post
-            </h3>
+            </h3> */}
 
             {/*Grille des post */}
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
