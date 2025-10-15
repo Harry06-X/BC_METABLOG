@@ -22,4 +22,3 @@ const NewsletterBanner = () => {
 
 export default NewsletterBanner;
 
-/**/
