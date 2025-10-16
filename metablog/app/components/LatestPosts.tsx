@@ -76,7 +76,7 @@ export default function LatestPosts() {
                 ))}
             </div>
 
-            {/*Bouton View All Posts */}
+            {/* Bouton View All Posts
             <div className="text-center mt-10">
                 <a
                     href="/blog"
@@ -85,7 +85,7 @@ export default function LatestPosts() {
                 >
                     View All Post
                 </a>
-            </div>
+            </div> */}
         </section>
     );
 };
