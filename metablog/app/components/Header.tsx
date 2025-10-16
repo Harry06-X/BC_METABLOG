@@ -5,9 +5,9 @@ import Link from 'next/link';
 const navLinks = [
     { name: 'Home', href: '/' },
     { name: 'Blog', href: '/blog' },
-    { name: 'Single Post', href: '/post/tech-impact-workplace' },
-    { name: 'Pages', href: '/author/alice-johnson'},
-    { name: 'Contact', href: '/contact' },
+    { name: 'Single Post', href: '/singlepost' },
+    { name: 'Pages', href: '/autorpost'},
+    { name: 'Contact', href: '/' },
 ];
 
 export default function Header() {
