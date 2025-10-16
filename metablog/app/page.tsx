@@ -83,6 +83,17 @@ export default function Home() {
         <LatestPosts />
       </div>
 
+      {/*Bouton View All Posts */}
+      <div className="text-center mt-10 mb-10">
+         <a
+          href="/blog"
+          className="nline-flex items-center px-6 py-3 border border-gray-300 text-sm font-medium 
+            rounded-md shadow-sm text-gray-700 bg-white hover:bg-gray-50 transition duration-150"
+          >
+             View All Post
+          </a>
+      </div>
+
       {/* <div className="flex justify-center mt-10 max-w-7xl w-full px-4 sm:px-6 lg:px-8 mb-16">
         <Link href="/blog">
           <button className="bg-white border border-gray-300 text-gray-700 px-12 py-3 rounded-xl text-sm font-medium hover:bg-gray-50 transition duration-150 shadow-md">
